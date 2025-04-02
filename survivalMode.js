@@ -313,3 +313,6 @@ const SurvivalMode = (function() {
     pause: togglePause
   };
 })();
+
+// Expose the function globally at the end
+window.survivalStartGame = survivalStartGame;
